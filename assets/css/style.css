@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* Permite desativar o crescimento de uma caixa por conta do padding*/
+  box-sizing: border-box;
+}
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 800px;
+  /* background-color: brown; */
+  /* Permite colocar uma foto de fundo pelo CSS */
+  background-image: url(../img/menu_breaking-bad.webp);
+
+  /* Permite configurar a repetição da imagem */
+  background-repeat: no-repeat;
+
+  /* Permite ajustar a posição da imagem (vertical e horizontal (left top)) */
+  background-position: center;
+
+  /* Permite ajustar o tamanho da imagem W x H */
+  /* background-size: 300px 300px; */
+
+  /* Permite ajustar o tamanho da imagem aplicando zoom para ela caber dentro do espaço (contain ou cover)*/
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+#menu {
+  width: 100%;
+  height: 80px;
+  background-color: #1f1e1e;
+  /* Propriedades para travar o posicionamento do menu e garantir que ele fique acima de outros elementos */
+  position: fixed;
+  z-index: 999;
+}
+
+#menu ul {
+  width: 50%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu li {
+  width: 50%;
+  height: inherit;
+  list-style: none;
+  float: left;
+  font-family: arial;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#menu ul li {
+  width: 25%;
+  height: inherit;
+  list-style: none;
+  float: left;
+  font-family: arial;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: #fff;
+}
+#menu ul li:hover {
+  cursor: pointer;
+  background-color: #ff8308;
+  transition: 1s;
+}
+
+h* {
+  font-weight: bold;
+}
+
+#imagem2 {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(#ffff0080, #ffff0080), url('../img/0f60adab26078bb90beb0d0c9c5dd218.jpeg');
+  background-size: cover;  
+  background-position: center;
+
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-color: #1f1e1e;
+}
+
+#s1, #s2{
+    margin-top: 50px;
+    text-align: center;
+}
+#SaibaMais {
+  color: #ffffff;
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/cartoon-breaking-bad-walter-9tng3z9qby0hppi6.jpg");
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+#sinopse {
+  width: 100%;
+  height: 400px;
+
+}
+
+#Audiencia {
+  width: 100%;
+  height: 800px;
+}
+
+#textSaibaMais {
+  text-align: left;
+  text-align: justify;
+}
